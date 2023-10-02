@@ -3,6 +3,7 @@ import 'dart:io'; // Import the 'io' library for stdin
 
 int x = 2;
 int y = 6;
+List fruits = ["Apple", "Mango", "Pineapple", "Pawpaw"];
 
 void main() {
   print("Enter your name: "); // Prompt the user for input
@@ -10,8 +11,8 @@ void main() {
 
   if (name == "manasseh") {
     print("The is $name");
-  } else if (name == null) {
-    print("Name is empty");
+  } else if (name != "manasseh") {
+    print("Name is not manasseh");
   } else {
     print("You did not enter anything");
   }
@@ -23,4 +24,9 @@ void main() {
   // } else {
   //   print("They do not exit");
   // }
+
+// A for loop
+  for (var i = 0; i < fruits.length - 1; ++i) {
+    print("$i : ${fruits[i]}");
+  }
 }
