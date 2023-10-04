@@ -1,8 +1,14 @@
-// A for loop
+List fruits = ["Apple", "Mango", "Pineapple", "Pawpaw"];
 
+
+// A for loop
 void main() {
   for (int i = 1; i <= 5; i++) {
     print('Iteration $i');
+  }
+
+  for (var i = 0; i < fruits.length - 1; ++i) {
+    print("$i : ${fruits[i]}");
   }
 
 
