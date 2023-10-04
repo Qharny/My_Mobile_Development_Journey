@@ -5,16 +5,21 @@ class Animal {
 
   Animal(this.category, this.name, this.feature);
 
-  void animalInfo(){
-    print("Category: $category \nNAme: $name, \nFeature: $feature ");
+  void animalInfo() {
+    print("Category: $category \nName: $name \nFeature: $feature ");
   }
 }
 
-void main(){
-   Animal cat = new Animal('Mammal', 'Cat', "It barks"); // This is how we create an object of a class
+void main() {
+  Animal cat = Animal('Mammal', 'Cat',
+      "It Meows"); // This is how we create an object of a class
+  Animal dog = Animal('Mammal', 'dog', 'It barks');
+  Animal bird = Animal('Bird', 'Sparrow', 'It Flys');
 
-   // access the properties
+  // access the properties
   print("Animal details\n ______________");
 
   cat.animalInfo();
+  dog.animalInfo();
+  bird.animalInfo();
 }
