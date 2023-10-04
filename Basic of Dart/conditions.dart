@@ -25,10 +25,8 @@ void main() {
   //   print("They do not exit");
   // }
 
-
-  // A for loop that iterates from 1 to 5
-  for (var i = 1; i <= 5; i++) {
-    print(i);
-}
-
+// A for loop
+  for (var i = 0; i < fruits.length - 1; ++i) {
+    print("$i : ${fruits[i]}");
+  }
 }
