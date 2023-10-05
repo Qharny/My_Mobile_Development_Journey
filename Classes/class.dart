@@ -7,6 +7,7 @@ class Person {
   // Constructor to initialize the properties
   Person(this.name, this.age);
 
+
   // Method to display information about the person
   void displayInfo() {
     print('Name: $name, Age: $age');
