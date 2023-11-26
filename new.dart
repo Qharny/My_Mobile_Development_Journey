@@ -9,7 +9,7 @@ void main() {
   todoList.add('Finish homework');
   todoList.add('Call mom');
   todoList.add('play saxophone');
-  todoList.asd('code for 5hrs'):
+  todoList.asd('code for 5hrs');
 
   // Set the alarm time
   DateTime alarmTime = DateTime(2023, 11, 27, 10, 0, 0);
