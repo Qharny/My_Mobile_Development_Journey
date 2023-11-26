@@ -8,9 +8,11 @@ void main() {
   todoList.add('Buy groceries');
   todoList.add('Finish homework');
   todoList.add('Call mom');
+  todoList.add('play saxophone');
+  todoList.asd('code for 5hrs'):
 
   // Set the alarm time
-  DateTime alarmTime = DateTime(2022, 12, 31, 8, 0, 0);
+  DateTime alarmTime = DateTime(2023, 11, 27, 10, 0, 0);
 
   // Start the timer to check the alarm
   Timer.periodic(Duration(seconds: 1), (timer) {
